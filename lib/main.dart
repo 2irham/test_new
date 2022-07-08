@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Media Query',
       home: HomePage(),
     );
   }
@@ -24,7 +24,7 @@ class HomePage extends StatelessWidget {
     final mediaQueryHeight = MediaQuery.of(context).size.height;
     final mediaQueryWidth = MediaQuery.of(context).size.width;
     final myAppBar = AppBar(
-      title: const Text('Flutter Demo'),
+      title: const Text('Media Query Training'),
     );
     final bodyHeight = mediaQueryHeight -
         myAppBar.preferredSize.height -
@@ -69,7 +69,7 @@ class HomePage extends StatelessWidget {
                 children: [
                   Container(
                     height: bodyHeight * 0.3,
-                    width: mediaQueryWidth * 0.8,
+                    width: mediaQueryWidth * 0.7,
                     color: Colors.amber,
                   ),
                   Container(
