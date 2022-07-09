@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Media Query',
+      title: 'Media Query Demo',
       home: HomePage(),
     );
   }
